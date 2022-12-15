@@ -1,0 +1,47 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  plugins:
+    - dart_code_metrics
+  errors:
+    prefer_single_quotes: error
+  exclude:
+    - "generated_plugin_registrant.dart"
+    - "**/*.gen.dart"
+    - "**/*.gr.dart"
+    - "**/*.mocks.dart"
+    - "**/*.config.dart"
+    - "**/*.chopper.dart"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+
+  strong-mode:
+        implicit-casts: true
+        implicit-dynamic: true
+
+linter:
+  rules:
+    public_member_api_docs: false
+    sort_pub_dependencies: false
+    flutter_style_todos: false
+    lines_longer_than_80_chars: false
+    one_member_abstracts: false
+    use_super_parameters: false
+
+dart_code_metrics:
+  metrics:
+    cyclomatic-complexity: 20
+    number-of-parameters: 4
+    maximum-nesting-level: 5
+  metrics-exclude:
+    - test/**
+  rules:
+    - newline-before-return
+    - no-boolean-literal-compare
+    - no-empty-block
+    - prefer-trailing-comma
+    - prefer-conditional-expressions
+    - no-equal-then-else
+  anti-patterns:
+    - long-method
+    - long-parameter-list

@@ -1,0 +1,66 @@
+name: mobii_exam_clean
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.5
+  google_fonts: ^3.0.1
+
+  # State Management
+  flutter_bloc: ^8.1.1
+
+  # Navigation
+  go_router: ^5.0.5
+
+  # Dependency Injection
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+
+  # Dart Data Class Generation
+  freezed: ^2.0.4
+  freezed_annotation: ^2.0.3
+  json_annotation: ^4.7.0
+  json_serializable: ^6.2.0
+
+  # Network
+  chopper: ^4.0.6
+  http: ^0.13.5
+
+  # Functional Programming
+  dartz: ^0.10.1
+
+  # Internationalization
+  intl: ^0.17.0
+
+  # Logger
+  logger: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.1.11
+  chopper_generator: ^4.0.6
+  flutter_gen_runner: ^4.3.0
+  injectable_generator:
+
+  mockito: ^5.3.2
+
+  dart_code_metrics: ^4.16.0
+  very_good_analysis: ^3.0.1
+
+flutter_gen:
+  output: lib/src/shared/generated/
+  line_length: 80
+
+flutter:
+  uses-material-design: true
+   
