@@ -1,4 +1,4 @@
-# mobii Tech Assesment using Clean Architecture
+# mobii_exam
 
 ## Flutter Version
 
@@ -6,7 +6,7 @@
 
 ## General
 
-This repo contains the source code for the pdax payments insight screens.
+This repo contains the source code for the Mobii Tech Assesment using Clean Architecture.
 
 ## Clean Architecture in Flutter
 
