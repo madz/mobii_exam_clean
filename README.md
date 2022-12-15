@@ -1,4 +1,4 @@
-# mobii_exam
+# mobii Tech Assesment using Clean Architecture
 
 ## Flutter Version
 
@@ -51,9 +51,6 @@ Every "feature" of the app, like sign in with email and password, will be divide
 
 ## Dependencies
 
-- UI
-  - [CupertinoIcons](https://pub.dev/packages/cupertino_icons)
-  - [GoogleFonts](https://pub.dev/packages/google_fonts)
 - State Management
   - [Bloc](https://pub.dev/packages/flutter_bloc)
 - Navigation/Routing
@@ -69,8 +66,6 @@ Every "feature" of the app, like sign in with email and password, will be divide
   - [Http](https://pub.dev/packages/http)
 - Functional Programming
   - [Dartz](https://pub.dev/packages/dartz)
-- Logging
-  - [Logger](https://pub.dev/packages/logger)
 
 ## Dev Dependencies
 
@@ -94,8 +89,8 @@ mobii_exam/
 ┃ ┃ ┣ data/
 ┃ ┃ ┣ domain/
 ┃ ┃ ┣ presentation/
-┃ ┃ ┗ shared/
-┃ ┃ ┣ app.dart
+┃ ┃ ┣shared/
+┃ ┃ ┗ app.dart
 ┃ ┣ main.dart
 ┣ test/
 ┣ analysis_options.yaml

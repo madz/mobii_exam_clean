@@ -26,7 +26,7 @@ class _UsersPageState extends State<UsersPage> {
       value: getIt<UsersCubit>(),
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Users'),
+          title: const Text('Home Page'),
         ),
         body: BlocBuilder<UsersCubit, UserState>(
           builder: (context, state) {
